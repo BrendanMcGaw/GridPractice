@@ -1,0 +1,7 @@
+.gridContainer {
+    display: grid;
+}
+
+div {
+    border: 5px solid black;
+}
