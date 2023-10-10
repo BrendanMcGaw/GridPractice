@@ -7,6 +7,23 @@
     gap: 15px 30px;
 }
 
-div {
+/* div {
     border: 2px solid black;
+} */
+
+.floorplan {
+   display: inline-grid; /* inline-grid allows us to have our area restricted unlike a block. */
+   grid-template: 40px 40px 40px 40px 40px / 40px 40px 40px 40px 40px;
+   background-color: rgb(57, 57, 224);
+}
+
+#loungeRoom {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.room {
+    color: white;
+    border: 1px solid rgb(212, 29, 29);
+    text-align: center;
 }
