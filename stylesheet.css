@@ -17,13 +17,34 @@
    background-color: rgb(57, 57, 224);
 }
 
-#loungeRoom {
-    grid-column-start: 1;
-    grid-column-end: 6;
-}
-
 .room {
     color: white;
     border: 1px solid rgb(212, 29, 29);
+    font-size: 50%;
     text-align: center;
+}
+
+#loungeRoom {
+    grid-column: 1 / 6;
+    grid-row: 1/3
+}
+
+#bathroom {
+    grid-column: 1;
+    grid-row: 3/6;
+}
+
+#bedroom {
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+#kitchen {
+    grid-column: 4/6;
+    grid-row: 3/6;
+}
+
+#closet {
+    grid-column: 2/4;
+    grid-row: 5;
 }
