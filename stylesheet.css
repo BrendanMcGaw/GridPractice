@@ -10,8 +10,9 @@ body {
     padding: 4px;
     border: 1px solid grey;
     background-color: skyblue;
-    grid-template-rows: repeat(2, 2fr);
-    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 150px;
+    grid-template-columns: repeat(auto-fit, 200px);
   }
   
   .grid-item {
